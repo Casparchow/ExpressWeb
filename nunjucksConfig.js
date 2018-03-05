@@ -8,7 +8,6 @@ module.exports = function(app) {
     autoescape: true,
     express: app
   });
-  
 
   env.addFilter('formatMoney', function(s) {
     var n = 2;
